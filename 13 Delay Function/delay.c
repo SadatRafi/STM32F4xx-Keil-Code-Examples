@@ -23,7 +23,7 @@ void sysTickInit(void)
   }
 }
 
-void _delay_us(uint32_t delay)
+void _delay_ms(uint32_t delay)
 {
 	DelayCount = 0;
 	while(1)
