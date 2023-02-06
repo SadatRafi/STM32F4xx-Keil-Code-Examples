@@ -1,0 +1,7 @@
+load STM32F401CCUx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "E:\Embedded System Practice\STM32F401CCUx\11 SPI_HAL\RTE\Device\STM32F401CCUx\" 
+set tpl_path "C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.17.0\MDK\CubeMX" 
+set dest_path "STM32F401CCUx" 
+SetCopyLibrary  "copy as reference"
